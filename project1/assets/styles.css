@@ -1,3 +1,5 @@
+/*******General Styling*********/
+
 * {
     margin: 0;
     padding: 0;
@@ -5,13 +7,12 @@
 }
 
 body {
-    background-color: #FFFF99; /* light yellow */
+    background-color: #ffffff; /* white */
     font-family: "futura-pt-condensed", sans-serif;
     font-style: normal;
     font-weight: 500;
-    color: #191970; /* font is navy blue */
+    color: #191970; /* main font color is navy blue */
 }
-
 
 .container {
     width: 768px;
@@ -26,35 +27,152 @@ body {
 }
 
 .header {
-    height: 90px;
+    width: 1024px;
+    height: 824px;
+    background-color: #FFFF99; /* light yellow */
+    margin: auto;
+    margin-top: 0;
 }
+
+/*positioning the character analysis might need to change top and left values*/
+.analysis {
+    position: absolute;
+    z-index: 20;
+    top: 42px;
+    left: 148px;
+}
+/*******Font Size*********/
+
+h3, h4 {
+    font-size: 12px;
+}
+
+p1, p2, p3, p4 {
+    font-size: 10px;
+}
+
+/*******Center of Page*********/
 
 .letter-container {
     width: 491;
-    font-size: 449px;
+    display: flex;
+}
+
+.letter-K {
+    font-size: 250px;
+    font-weight: normal;
+    left: 179;
+/*
     margin-left: 31.28px;
     margin-right: 13.55px;
     margin-top; -30px;
     margin-bottom; 0px;
+*/
+}
+
+.analysis {
+    position: absolute;
+    z-index: 20;
+    top: 43px;
+    left: 148px;
+}
+/*******Left Side of Page*********/
+
+.verticalLine {
+    border-left: thick solid #191970;
+    width: 5px;
+    height: 1024px;
+    position: relative;
+    top: 120;
+    left: -21;
+    z-index: 5;
+}
+
+.verticalText {
+    transform: rotate(270deg);
+/*    transform-origin: left top 0;*/
+    font-size: 65px;
+    position: relative;
+    top: 12px;
+    left: -77px;
 }
 
 #button {
-    width: 66px;
-    height: 66px;
-    border-radius: 50%;
     background-color: #191970;
+    border: none;
+    color: white;
+/*    padding: 20px;*/
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    border-radius: 50%;
+    top: 872px;
+    left: 33px;
+    z-index: 30;
 }
 
-/*.lettercontainer h1 {*/
-/*    font-weight: normal;*/
-/*}*/
+.name-typeface {
+    top: 818px;
+    left: 29px;
+    padding: 25px;
+}
 
-/*h1 {*/
-/*    font-size: 60px;*/
-/*}*/
+/*******Bottom Half of Page*********/
 
+/*
+#coloredBox {
+    background-color: #ffffff;
+    padding: 10px;
+    height: 234px;
+    width: 768px;
+    top: 790;
+    left: 0;
+    z-index: 2;
+}
+*/
 
-/* Fonts */
+img {
+    height: 105px;
+    width: 105px
+}
+
+.verticalTextsources {
+    transform: rotate(-90deg);
+    transform-origin: right bottom 0;
+    font-size: 8px;
+    position: relative;
+/*    top: 686.5px;*/
+    right: -820.5px;
+}
+
+.paragraph-container {
+    display: flex;
+    flex-direction: row;
+/*    flex-wrap: wrap;*/
+}
+
+.p1 {
+    width: 191px;
+    height: 184px;
+    padding: 25px;
+    margin: 25px;
+    position: relative;
+    top: 790px;
+    left: 149px;
+}
+
+.p2 {
+    width: 191px;
+    height: 184px;
+    padding: 25px;
+    margin: 25px;
+    position: relative;
+    top: 790px;
+    left: 360px;
+}
+
+/*******Potential TypeFaces & Links*********/
 
 .bodoni-regular {
     font-family: bodoni-urw, serif;
