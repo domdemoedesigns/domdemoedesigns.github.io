@@ -1,5 +1,4 @@
-/*******General Styling*********/
-
+/***General Styling***/
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +6,10 @@
 }
 
 body {
-    background-color: #ffffff; /* white */
     font-family: "futura-pt-condensed", sans-serif;
     font-style: normal;
     font-weight: 500;
-    color: #191970; /* main font color is navy blue */
+    color: #191970;                 /*navy blue*/
 }
 
 .container {
@@ -20,29 +18,7 @@ body {
     margin: 0 auto;
 }
 
-.box {
-    margin-left: auto;
-    margin-right: auto;
-    width: 491px;
-}
-
-.header {
-    width: 1024px;
-    height: 824px;
-    background-color: #FFFF99; /* light yellow */
-    margin: auto;
-    margin-top: 0;
-}
-
-/*positioning the character analysis might need to change top and left values*/
-.analysis {
-    position: absolute;
-    z-index: 20;
-    top: 42px;
-    left: 148px;
-}
-/*******Font Size*********/
-
+/***Font Size***/
 h3, h4 {
     font-size: 12px;
 }
@@ -51,140 +27,173 @@ p1, p2, p3, p4 {
     font-size: 10px;
 }
 
-/*******Center of Page*********/
-
-.letter-container {
-    width: 491;
+/***Top Section***/
+.top-section {
+    margin-left: auto;
+    margin-right: auto;
+    height: 790px;
+    width: 768px;
+    background-color: #FFFF99;      /*light yellow*/
     display: flex;
+    position: relative;
 }
 
-.letter-K {
-    font-size: 250px;
+.header {
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    margin-top: 0;
+}
+
+.letter-container {
+/*    width: 491px;*/
+    display: flex;
+    position: absolute;
+    height: 790px;
+    width: 648px;
+}
+
+h1 {
+    font-size: 900px;
     font-weight: normal;
-    left: 179;
-/*
-    margin-left: 31.28px;
-    margin-right: 13.55px;
-    margin-top; -30px;
-    margin-bottom; 0px;
-*/
+    position: absolute;
+    top: -175px;
+    left: 200px;
+}
+
+.top-left {
+    position: relative;
+    display: flex;
+    height: 790px;
+    width: 120px;
+}
+
+.vertical-text {
+    transform: rotate(270deg);
+    font-size: 50px;
+    height: 105px;
+    width: 877px;
+    position: absolute;
+    top: 275px;
+    left: -1020px;   
+}
+
+/***Vertical Line***/
+.vertical-line {
+    border-left: thick solid #191970;       /*navy blue*/
+    width: 5px;
+    height: 1024px;
+    position: fixed;
+    top: 0px;
+    left: 395px;
+    z-index: 150;
+}
+
+/***Bottom Section***/
+.bottom-section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 768px;
+    height: 234px;
+    background-color: #FFFFFF;      /*white*/
+    display: flex;
+    position: relative;
+}
+
+.name-typeface {
+    position: relative;
+    display: flex;
+    height: 234px;
+    width: 120px;
+}
+
+h2 {
+    position: absolute;
+    width: 62px;
+    height: 50px;
+    top: 28px;
+    left: 29px;
 }
 
 .analysis {
     position: absolute;
+    font-size: 900px;
+    font-weight: normal;
+    top: -175px;
+    left: 200px;
     z-index: 20;
-    top: 43px;
-    left: 148px;
-}
-/*******Left Side of Page*********/
-
-.verticalLine {
-    border-left: thick solid #191970;
-    width: 5px;
-    height: 1024px;
-    position: relative;
-    top: 120;
-    left: -21;
-    z-index: 5;
-}
-
-.verticalText {
-    transform: rotate(270deg);
-/*    transform-origin: left top 0;*/
-    font-size: 65px;
-    position: relative;
-    top: 12px;
-    left: -77px;
 }
 
 #button {
     background-color: #191970;
-    border: none;
     color: white;
-/*    padding: 20px;*/
+    border: none;
     text-align: center;
     width: 55px;
     height: 55px;
     display: inline-block;
+    font-size: 18px;
     border-radius: 50%;
-    top: 872px;
-    left: 33px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 275px;
+    left: -165px;
+    padding: 15px;
     z-index: 30;
 }
 
-.name-typeface {
-    top: 818px;
-    left: 29px;
-    padding: 25px;
-}
-
-/*******Bottom Half of Page*********/
-
-/*
-#coloredBox {
-    background-color: #ffffff;
-    padding: 10px;
-    height: 234px;
-    width: 768px;
-    top: 790;
-    left: 0;
-    z-index: 2;
-}
-*/
-
-img {
-    height: 105px;
-    width: 105px
-}
-
-.verticalTextsources {
-    transform: rotate(-90deg);
-    transform-origin: right bottom 0;
-    font-size: 8px;
-    position: relative;
-/*    top: 686.5px;*/
-    right: -820.5px;
+#button:hover {
+    background-color: white;
+    color: #191970;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 .paragraph-container {
     display: flex;
     flex-direction: row;
-/*    flex-wrap: wrap;*/
+    position: relative;
+    height: 234px;
+    width: 648px;
 }
 
 .p1 {
     width: 191px;
     height: 184px;
-    padding: 25px;
-    margin: 25px;
-    position: relative;
-    top: 790px;
-    left: 149px;
+    position: absolute;
+    top: 28px;
+    left: 29px;
 }
 
 .p2 {
     width: 191px;
     height: 184px;
-    padding: 25px;
-    margin: 25px;
-    position: relative;
-    top: 790px;
-    left: 360px;
+    position: absolute;
+    top: 28px;
+    left: 240px;
 }
 
-/*******Potential TypeFaces & Links*********/
-
-.bodoni-regular {
-    font-family: bodoni-urw, serif;
-    font-weight: 400;
-    font-style: normal;    
+img {
+    height: 105px;
+    width: 105px;
+    position: absolute;
+    top: 28px;
+    left: 455px;
 }
 
-.bodoni-bold {
-    font-family: bodoni-urw, serif;
-    font-weight: 700;
-    font-style: normal;
+.about {
+    position: absolute;
+    width: 106px;
+    top: 141.5px;
+    left: 455px;
 }
 
-/* <link rel="stylesheet" href="https://use.typekit.net/sdv6rsn.css"> */
-/* <link rel="stylesheet" href="https://use.typekit.net/sdv6rsn.css"> */
+.vertical-text-sources {
+    transform: rotate(-90deg);
+    font-size: 8px;
+    position: absolute;
+    width: 182px;
+    height: 60px;
+    top: 68px;
+    left: 500px;
+}
