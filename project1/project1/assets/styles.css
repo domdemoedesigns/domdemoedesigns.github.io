@@ -83,7 +83,7 @@ h1 {
     border-left: thick solid #191970;       /*navy blue*/
     width: 5px;
     height: 1024px;
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 395px;
     z-index: 150;
