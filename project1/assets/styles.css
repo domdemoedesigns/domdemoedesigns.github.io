@@ -16,6 +16,7 @@ body {
     width: 768px;
     height: 1024px;
     margin: 0 auto;
+    position: relative;
 }
 
 /***Font Size***/
@@ -27,6 +28,17 @@ p1, p2, p3, p4 {
     font-size: 10px;
 }
 
+/***Vertical Line***/
+.vertical-line {
+    border-left: thick solid #191970;       /*navy blue*/
+    width: 5px;
+    height: 1024px;
+    position: absolute;
+    top: 0px;
+    left: 125px;
+    z-index: 150;
+}
+
 /***Top Section***/
 .top-section {
     margin-left: auto;
@@ -36,6 +48,13 @@ p1, p2, p3, p4 {
     background-color: #FFFF99;      /*light yellow*/
     display: flex;
     position: relative;
+}
+
+.top-background {
+    height: 790px;
+    width: 100%;
+    position: absolute;
+    background-color: #FFFF99;      /*light yellow*/
 }
 
 .header {
@@ -76,17 +95,6 @@ h1 {
     position: absolute;
     top: 275px;
     left: -1020px;   
-}
-
-/***Vertical Line***/
-.vertical-line {
-    border-left: thick solid #191970;       /*navy blue*/
-    width: 5px;
-    height: 1024px;
-    position: fixed;
-    top: 0px;
-    left: 395px;
-    z-index: 150;
 }
 
 /***Bottom Section***/
