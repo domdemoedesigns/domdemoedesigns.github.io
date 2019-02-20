@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-    color: lightcoral;
+    color: white;
     text-transform: uppercase;
     font-size: 40px;
     letter-spacing: 700px;
@@ -31,7 +31,7 @@ h1 {
 h5 {
     font-family: 'benton-sans', sans-serif;
     font-size: 20px;
-    color: beige;
+    color: white;
     font-weight: 100;
     text-align: center;
     text-transform: uppercase;
