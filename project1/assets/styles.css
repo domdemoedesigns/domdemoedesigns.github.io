@@ -13,7 +13,6 @@ body {
 }
 
 .top-background {
-/*    height: 790px;*/
     height: 760px;
     width: 100%;
     position: absolute;
@@ -102,7 +101,6 @@ p1, p2 {
 }
 
 .letter-container {
-/*    width: 491px;*/
     display: flex;
     position: absolute;
     height: 790px;
@@ -199,7 +197,7 @@ p3 {
     width: 191px;
     height: 184px;
     position: absolute;
-    top: 10px;
+    top: 20px;
     left: 29px;
 }
 
@@ -207,7 +205,7 @@ p3 {
     width: 191px;
     height: 184px;
     position: absolute;
-    top: 10px;
+    top: 20px;
     left: 240px;
 }
 
