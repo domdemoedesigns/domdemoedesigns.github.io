@@ -1,0 +1,30 @@
+body {
+  background-color: #FFFF99; /* light yellow */
+  font-family: "Futura-pt", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #191970; /* navy blue */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 768px;
+  height: 1024px;
+  margin: 0 auto;
+}
+
+.box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 491px;
+}
+
+.header {
+  height: 60px;
+}
+
+#button {
+  width: 24;
+  background-color: #000080 /* navy blue */
+}

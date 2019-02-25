@@ -12,14 +12,6 @@ body {
     color: #191970;                 /*navy blue*/
 }
 
-.top-background {
-/*    height: 790px;*/
-    height: 760px;
-    width: 100%;
-    position: absolute;
-    background-color: #FFFF99;      /*light yellow*/
-}
-
 .container {
     width: 768px;
     height: 1024px;
@@ -27,42 +19,23 @@ body {
     position: relative;
 }
 
-/***Body Copy Font***/
-.bodoni-regular {
-    font-family: "bodoni-urw", serif;
-    font-weight: normal;
-    font-style: normal;    
-}
-
-.bodoni-bold {
-    font-family: "bodoni-urw", serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
 /***Font Size***/
-h3 {
-    font-size: 16px;
-}
-
-h4 {
-    font-size: 14px;
-}
-
-p1, p2 {
+h3, h4 {
     font-size: 12px;
-    font-family: "bodoni-urw", serif;
-    
+}
+
+p1, p2, p3, p4 {
+    font-size: 10px;
 }
 
 /***Vertical Line***/
 .vertical-line {
     border-left: thick solid #191970;       /*navy blue*/
     width: 5px;
-    height: 100%;
+    height: 1024px;
     position: absolute;
     top: 0px;
-    left: 115px;
+    left: 125px;
     z-index: 150;
 }
 
@@ -70,11 +43,18 @@ p1, p2 {
 .top-section {
     margin-left: auto;
     margin-right: auto;
-    height: 760px;
+    height: 790px;
     width: 768px;
     background-color: #FFFF99;      /*light yellow*/
     display: flex;
     position: relative;
+}
+
+.top-background {
+    height: 790px;
+    width: 100%;
+    position: absolute;
+    background-color: #FFFF99;      /*light yellow*/
 }
 
 .header {
@@ -82,6 +62,22 @@ p1, p2 {
     height: 30px;
     margin: auto;
     margin-top: 0;
+}
+
+.letter-container {
+/*    width: 491px;*/
+    display: flex;
+    position: absolute;
+    height: 790px;
+    width: 648px;
+}
+
+h1 {
+    font-size: 900px;
+    font-weight: normal;
+    position: absolute;
+    top: -175px;
+    left: 200px;
 }
 
 .top-left {
@@ -97,31 +93,8 @@ p1, p2 {
     height: 105px;
     width: 877px;
     position: absolute;
-    top: 260px;
-    left: -1018px;   
-}
-
-.letter-container {
-/*    width: 491px;*/
-    display: flex;
-    position: absolute;
-    height: 790px;
-    width: 648px;
-}
-
-h1 {
-    font-size: 900px;
-    font-weight: normal;
-    position: absolute;
-    top: -200px;
-    left: 200px;
-}
-
-.analysis {
-    position: absolute;
-    top: -16px;
-    left: 108px;
-    z-index: 20;
+    top: 275px;
+    left: -1020px;   
 }
 
 /***Bottom Section***/
@@ -142,24 +115,21 @@ h1 {
     width: 120px;
 }
 
-p {
+h2 {
     position: absolute;
-    transform: rotate(-90deg);
-    font-size: 30px;
     width: 62px;
     height: 50px;
-    top: 195px;
-    left: 39px;
+    top: 28px;
+    left: 29px;
 }
 
-p3 {
+.analysis {
     position: absolute;
-    transform: rotate(-90deg);
-    font-size: 30px;
-    width: 62px;
-    height: 50px;
-    top: 55px;
-    left: 39px;
+    font-size: 900px;
+    font-weight: normal;
+    top: -175px;
+    left: 200px;
+    z-index: 20;
 }
 
 #button {
@@ -174,8 +144,8 @@ p3 {
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
     position: absolute;
-    top: 126px;
-    left: 39px;
+    top: 275px;
+    left: -165px;
     padding: 15px;
     z-index: 30;
 }
@@ -199,7 +169,7 @@ p3 {
     width: 191px;
     height: 184px;
     position: absolute;
-    top: 10px;
+    top: 28px;
     left: 29px;
 }
 
@@ -207,36 +177,31 @@ p3 {
     width: 191px;
     height: 184px;
     position: absolute;
-    top: 10px;
+    top: 28px;
     left: 240px;
 }
 
-.photo {
+img {
     height: 105px;
     width: 105px;
     position: absolute;
-    top: 60px;
+    top: 28px;
     left: 455px;
 }
 
 .about {
     position: absolute;
     width: 106px;
-    top: 170px;
-    left: 464px;
+    top: 141.5px;
+    left: 455px;
 }
 
 .vertical-text-sources {
     transform: rotate(-90deg);
-    position: absolute;
-    width: 200px;
-    height: 35px;
-    top: 115px;
-    left: 490px;
-}
-
-ul.p {
-    list-style-type: circle;
-    font-family: "bodoni-urw", serif;
     font-size: 8px;
+    position: absolute;
+    width: 182px;
+    height: 60px;
+    top: 68px;
+    left: 500px;
 }
