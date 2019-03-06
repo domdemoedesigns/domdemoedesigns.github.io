@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+}
+
+.container {
+    width: 768px;
+    height: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#game-board {
+    margin: 0 auto;
+    width: 400px;
+    height: 600px;
+    top: 100px;
+    border: Solid 5px yellow;
+    height: 383px;
+    position: relative;
+}
+
+.h1 {
+    font-family: "futura-pt-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+}
+
+.h2 {
+    font-family: "futura-pt-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.p {}
+
+#cards {
+/*    left: 70px;*/
+}
+
+table {
+    /*styling the table*/
+    display: table;
+    vertical-align: middle;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    margin: auto;
+    border-color: inherit;
+}
+
+tr {
+    /*styling the table rows*/
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+    /*styling the cells*/
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.flip {
+    padding: 3px;
+}
+
+#levels {
+    position: absolute;
+    font-family: "futura-pt-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 24px;
+    top: 615px;
+    left: 500px;
+}
+
+#radio {
+    position: absolute;
+    font-family: "futura-pt-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    top: 650px;
+    left: 470px;
+}
+
+#game-message {
+    margin: 0 auto;
+    font-size: 20px;
+    background: white;
+    padding: 15px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    width: 612px;
+    display: none;
+}
+
+#button {
+    position: absolute;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+    background: yellow;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 600px;
+    left: 150px;
+    text-decoration: uppercase;
+    font-family: "futura-pt-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
