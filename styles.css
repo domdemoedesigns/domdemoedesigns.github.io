@@ -17,7 +17,7 @@ body {
 }
 
 .header {
-    width: 100%;
+    width: 960px;
     height: 100px;
     background-color: black;
     margin: auto;
@@ -28,7 +28,6 @@ h1 {
     color: dimgrey;
     text-transform: uppercase;
     font-size: 40px;
-    letter-spacing: 700px;
     margin-top: 250px;
     text-align: center;
 }
