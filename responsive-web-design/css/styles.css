@@ -7,10 +7,12 @@
 
 body {
     background-color: #0c2340;
-    margin: 0px;
+/*    margin: 0px;*/
     padding: 0px;
     font-family: 'Roboto', sans-serif;
     color: #0c2340;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .page {
@@ -89,8 +91,8 @@ blockquote {
     line-height: 1.5rem;
     padding: 4.875rem 1.875rem;
     margin: 2.5rem auto 0 auto;
-    background-color: rgba(174, 145, 66, 0.05);
-    color: #ae9142;
+    background-color: #0C2340;
+    color: #ae9142; 
 }
 
 cite {
@@ -155,7 +157,7 @@ footer {
 
 footer .footer-info {
     color: #fff;
-    width: 80%;
+    width: 100%;
     text-align: center;
     padding: 5%;
     margin: 0 auto;
@@ -172,15 +174,47 @@ footer dd {
     margin: 0 0 1.25rem 0;
 }
 
-@media only screen and (min-width: 960px) {
-    .flexyboxy {
+@media only screen and (min-width: 750px) {
+    body {
+        background-color: palegoldenrod;
+        color: #0C2340;
+    }
+    footer .footer-info {
+        color: #0C2340;
+        text-align: left;
+    }
+
+    .flexboxy {
         display: flex;
         justify-content: space-between;
     }
 }
 
 
-
+@media only screen and (min-width: 960px) {
+    body {
+        background-color: #0C2340;
+        color: #0C2340;
+    }
+        
+    .flexboxy {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    footer .footer-info {
+        color: white;
+        text-align: left;
+    }
+    
+    blockquote {
+    background-color: #0C2340;
+    border-style: solid;
+    border-color: white;
+    border-style: 15px;
+    color: white; 
+    }
+}
 
 
 
