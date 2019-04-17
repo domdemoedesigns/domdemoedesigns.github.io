@@ -1,0 +1,277 @@
+/*****general*****/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*NAV  BAR*/
+/*Add a black background color to the top navigation*/
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+/*Style the links inside the navigation bar*/
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/*Change the color of links on hover*/
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*Add an active class to highlight the current page*/
+.active {
+    background-color: black;
+    color: white;
+}
+
+/*Hide the link that should open and close the topnav on small screens*/
+.topnav .icon {
+    display: none;
+}
+
+/*Dropdown button*/
+/*
+
+, .dropdown:hover .dropbtn, .dropbtn:focus 
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+*/
+
+/*Scroll Arrow*/
+.separator-type,
+.title-type,
+.intro-type,
+.content-type .intro-type p {
+    position: relative;
+}
+
+.intro-type .container {
+    padding: 107px 0px 102px 0px !important;
+}
+
+.company-heading h1 {
+    margin-bottom: 60px;
+    padding-bottom: 50px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 700 !important;
+    text-align: center;
+}
+
+.jumbo {
+    margin-top: 50px;
+}
+
+.seo-header,
+.product-header,
+.intro-type .container h1.white,
+.company-heading h1 {
+    font-weight: 100 !important;
+    text-transform: capitalize;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.parallax {
+    background-attachment: inherit !important;
+}
+
+.parallax {
+    background-attachment: inherit !important;
+}
+
+.parallax {
+    background-attachment: inherit !important;
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: -10;
+}
+
+.ct-btn-scroll {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 500px;
+    z-index: 9;
+    border-radius: 50%;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+}
+
+img,
+figure {
+    max-width: 100%;
+}
+
+/*BLOCKING IN THINGS*/
+
+/*
+.personal {
+    height: 50px;
+    width: auto;
+    background-color: #555;
+    margin-top: 15px;
+    padding: 10px 10px;
+}
+*/
+
+/*Images*/
+.img1 {
+    margin-top: 50px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img2 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img3 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img4 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*MEDIA QUERIES*/
+/*When the screen is less than 750 pixels wide, hide all links, except for the first one ("Home"). SHow the link that contains should open and close the topnav (.icon)*/
+@media screen and (max-width: 750px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+/*The "responsive" class is added to the topnav with JAvaScript when the user clicks on the icon. This class makes the topnav look good ons mall screens (display the links vertically instead of horizontally)*/
+@media screen and (max-width: 750px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+/*Fonts and Stuff*/
+/*Benton Sans Regular*/
+/*
+font-family: benton-sans, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+*/
+/*Benton Sans Thin*/
+/*
+font-family: benton-sans, sans-serif;
+
+font-weight: 100;
+
+font-style: normal;*/
+/*Benton Sans Bold*/
+/*
+font-family: benton-sans, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+*/
+/*Benton Sans Condensed Book*/
+/*
+font-family: benton-sans-condensed, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+*/
+
+/*Pink #B86B77*/
+/*Grey Dark #707070*/
+/*Navy Blue #08192F */
