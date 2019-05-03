@@ -28,7 +28,7 @@ h1 {
     color: dimgrey;
     text-transform: uppercase;
     font-size: 50px;
-    margin-top: 200px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -45,11 +45,12 @@ h5 {
     margin-left: 100px;
     color: black;
     margin-bottom: 15px;
+    padding: 20px;
 }
 
 h3 {
     font-size: 38px;
-    margin-top: 100px;
+    margin-top: 50px;
     text-transform: uppercase;
     font-weight: 700;
     word-spacing: 2px;
