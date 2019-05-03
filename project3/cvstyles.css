@@ -43,7 +43,7 @@ body {
 
 /*Headers & Text*/
 header {
-    background-color: #B86B77;
+    background-color: #337ab7;
     width: 100%;
     padding: 5em;
 }
@@ -55,7 +55,7 @@ h1 {
 }
 
 h2 {
-    color: #B86B77;
+    color: #337ab7;
     font-size: 1.25em;
     margin-top: 5em;
     margin-bottom: 3em;
@@ -88,7 +88,7 @@ p {
 .button {
     background-color: white;
     border: none;
-    color: #B86B77;
+    color: #337ab7;
     padding: 5px 32px;
     text-align: center;
     text-decoration: none;
@@ -137,12 +137,12 @@ a:link {
 }
 
 a:visited {
-    color: #B86B77;
+    color: #337ab7;
     text-decoration: none;
 }
 
 a:hover {
-    color: #B86B77;
+    color: #337ab7;
     text-decoration: none;
 }
 
@@ -156,7 +156,7 @@ a:active {
 
 @media only screen and (min-width: 1px) and (max-width: 499px) {
     header {
-        background-color: #B86B77;
+        background-color: #337ab7;
         width: 100%;
         padding: 5em;
     }
@@ -210,7 +210,7 @@ a:active {
     }
 
     a:active {
-        color: #B86B77;
+        color: #337ab7;
         text-decoration: none;
     }
 }
