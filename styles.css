@@ -1,7 +1,7 @@
         body {
             margin: 0 auto;
             padding: 0;
-            background-color: lightpink;
+            background-color: darkseagreen;
             font-family: 'Benton Sans', sans-serif;
             font-weight: 400;
         }
@@ -20,7 +20,7 @@
             font-size: 40px;
             letter-spacing: 2px;
             font-weight: 700;
-            margin-top: -150px;
+            margin-top: 50px;
             text-align: center;
               
         }
@@ -48,6 +48,11 @@
         }
         
         a {
-            text-decoration: underline;
+            text-decoration: none;
             color: white;
         }
+
+a:visited {
+    color: slategray;
+            text-decoration: underline;
+}
