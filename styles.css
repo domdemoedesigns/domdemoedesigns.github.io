@@ -1,106 +1,50 @@
-* {
-    /*    margin: 0 auto;*/
-    margin: 50px 0px;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: lightcoral;
-}
+        body {
+            padding: 0;
+            margin: 50px 0px;
+            background-color: lightcoral;
+            font-family: 'Questrial', sans-serif;
+        }
 
-body {
-    font-family: 'benton-sans', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    background-color: lightcoral;
-}
+        .container {
+            width: 50%;
+            height: 80%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 5%;
+            border-radius: 2.5%;
+        }
 
-.container {
-    /*    background-color: lightcoral;*/
-    /*
-    width: 768px;
-    height: 1024px;
-*/
-    width: 50%;
-    height: 75%;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 5%;
-    border-radius: 2.5%;
-}
+        .header {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+        }
 
-.header {
-    /*
-    width: auto;
-    height: 50px;
-    background-color: black;
-    margin-top: 0;
-*/
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
 
-.header 1 {
-    color: lightblue;
-    font-size: 52px;
-    font-weight: normal;
-    margin: 0 auto;
-}
+        .header 1 {
+            color: lightblue;
+            font-size: 52px;
+            font-weight: normal;
+            margin: 0 auto;
+        }
 
-.header 5 {
-    text-align: right;
-    position: relative;
-    top: -50px;
-}
+        .header 5 {
+            text-align: right;
+            position: relative;
+            top: -50px;
+        }
 
-.header 3,
-ul {
-    position: relative;
-    top: -30px;
-}
+        .header 3,
+        ul {
+            position: relative;
+            top: -30px;
+        }
 
-/*
-h1 {
-    text-transform: uppercase;
-    font-size: 50px;
-    margin-top: 50px;
-    text-align: center;
-}
-*/
+        a {
+            color: darkgrey;
+            text-decoration: none;
+        }
 
-/*
-h5 {
-    font-size: 25px;
-    color: white;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-}
-*/
-
-/*
-.project {
-    margin-left: 100px;
-    color: black;
-    margin-bottom: 15px;
-    padding: 20px;
-}
-*/
-
-/*
-h3 {
-    font-size: 38px;
-    margin-top: 50px;
-    text-transform: uppercase;
-    font-weight: 700;
-    word-spacing: 2px;
-}
-*/
-
-a {
-    text-decoration: none;
-    color: darkgrey;
-}
-
-a:visited {
-    color: cadetblue;
-}
+        a:visited {
+            color: cadetblue;
+        }
