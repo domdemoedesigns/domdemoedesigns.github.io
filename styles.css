@@ -1,7 +1,7 @@
         body {
             margin: 0 auto;
             padding: 0;
-            background-color: darkseagreen;
+            background-color: #00264D;
             font-family: 'Benton Sans', sans-serif;
             font-weight: 400;
         }
@@ -32,6 +32,8 @@
             font-weight: 100;
             text-align: center;
             text-transform: uppercase;
+            padding-top: 20px;
+            margin:auto;
         }
 
         .project {
