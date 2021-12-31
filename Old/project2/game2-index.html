@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Solar System Memory</title>
+
+    <link rel="stylesheet" href="assets/game-styles.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/vxl2cco.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/vxl2cco.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/vxl2cco.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <style>
+        ::-webkit-scrollbar {
+            width: 20px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgb(230 231 232);
+            box-shadow: inset 0 0 5px rgb(40 39 64);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgb(242 201 22);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(40 39 64);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img class="astro" src="assets/astronaut-astronomy-cosmos.png">
+
+        <!--   Background     -->
+
+        <div class="background">
+            <img class="milk" src="assets/milkyway.jpeg">
+        </div>
+
+        <!--   Header     -->
+
+        <div class="header">
+
+            <h1>Solar System Memory</h1>
+
+            <h2>Level 2: Moons</h2>
+
+            <!--   Buttons     -->
+
+            <div class="top">
+
+                <a class="level1" id="button" href="game-index.html">Level 1</a>
+
+                <a class="level2" id="button" href="game2-index.html">Level 2</a>
+
+                <a class="level3" id="button" href="game3-index.html">Level 3</a>
+
+                <a class="playagain" id="button" href="game2-index.html">Play Again</a>
+
+            </div>
+
+            <div class="bottom">
+
+                <!--        Modal Content-->
+                <button class="trigger">The Moons</button>
+                <div class="modal">
+                    <div class="modal-content">
+                        <span class="close-button">&times;</span>
+                        <h1>The Moons</h1>
+
+                        <br>
+
+                        <ol style="list-style-type:none">
+                            <li>Moon <img src="assets/moon-card.png" style="width:50px; height: auto;" align="bottom;"></li>
+
+                            <li>Deimos <img src="assets/deimos-card.png" style="width:50px; height: auto;" align="bottom;"></li>
+
+                            <li>Phobos <img src="assets/phobos-card.png" style="width:50px; height: auto;" align="bottom;"></li>
+
+                            <li>Enceladus <img src="assets/enceladus-card.png" style="width:50px; height: auto;" align="bottom;"></li>
+
+                            <li>Europa <img src="assets/europa-card.png" style="width:50px; height: auto;" align="bottom;"></li>
+
+                            <li>Ganymede <img src="assets/ganymede-card.png" style="width:50px; height: auto;" align="bottom;"></li>
+
+                            <li>Callisto <img src="assets/callisto-card.png" style="width:50px; height: auto;" align="bottom;"></li>
+
+                            <li>Titan <img src="assets/titan-card.png" style="width:50px; height: auto;" align="bottom;"></li>
+                        </ol>
+                    </div>
+                </div>
+
+                <a class="more" id="button" href="info.html">Learn More</a>
+
+                <a class="rules" id="button" href="rules-index.html">Rules</a>
+
+                <a class="aboutb" id="button" href="about-index.html">About</a>
+            </div>
+
+        </div>
+
+        <!--   Cards     -->
+
+        <div class="game-container">
+            <div class="memory-card" data-name="moon" style="order:11;">
+                <img class="front" src="assets/moon-card.png">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+            <div class="memory-card" data-name="moon" style="order:6" ;>
+                <img class="front" src="assets/moon-card.png">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+
+            <div class="memory-card" data-name="deimos" style="order:2;">
+                <img class="front" src="assets/deimos-card.png">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+            <div class="memory-card" data-name="deimos" style="order:15;">
+                <img class="front" src="assets/deimos-card.png">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+
+            <div class="memory-card" data-name="phobos" style="order:16;">
+                <img class="front" src="assets/phobos-card.png">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+            <div class="memory-card" data-name="phobos" style="order:15;">
+                <img class="front" src="assets/phobos-card.png">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+
+            <div class="memory-card" data-name="enceladus" style="order:5;">
+                <img class="front" src="assets/enceladus-card.png">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+            <div class="memory-card" data-name="enceladus" style="order:4;">
+                <img class="front" src="assets/enceladus-card.png">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+
+            <div class="memory-card" data-name="europa" style="order:10;">
+                <img class="front" src="assets/europa-card.png">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+            <div class="memory-card" data-name="europa" style="order:10;">
+                <img class="front" src="assets/europa-card.png">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+
+            <div class="memory-card" data-name="ganymede" style="order:2;">
+                <img class="front" src="assets/ganymede-card.png">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+            <div class="memory-card" data-name="ganymede" style="order:16;">
+                <img class="front" src="assets/ganymede-card.png">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+
+            <div class="memory-card" data-name="callisto" style="order:11;">
+                <img class="front" src="assets/callisto-card.png">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+            <div class="memory-card" data-name="callisto" style="order:2;">
+                <img class="front" src="assets/callisto-card.png">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+
+            <div class="memory-card" data-name="titan" style="order:14;">
+                <img class="front" src="assets/titan-card.png">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+            <div class="memory-card" data-name="titan" style="order:9;">
+                <img class="front" src="assets/titan-card.png">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+        </div>
+    </div>
+</body>
+
+<!--   Scripts     -->
+
+<script type="text/javascript" src="js/memory.js"></script>
+
+</html>

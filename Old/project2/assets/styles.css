@@ -1,0 +1,74 @@
+/*****general*****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 768px;
+    height: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+body {
+    text-align: left;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(40 39 64);
+    background-color: rgb(230 231 232);
+
+}
+
+/*****headers*****/
+
+h1 {
+    font-family: "futura-pt-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(242 201 22);
+}
+
+p {
+    width: auto;
+    margin-top: 0px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+}
+
+#button {
+    display: flex;
+    position: relative;
+    padding: 10px 20px;
+    background: white;
+    color: rgb(40 39 64);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 75px;
+    text-decoration: none;
+    font-family: "futura-pt-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    justify-content: center;
+}
+
+#button:hover {
+    text-shadow: 2px 2px 5px rgb(40 39 64);
+    cursor: pointer;
+}

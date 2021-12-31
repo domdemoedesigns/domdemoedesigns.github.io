@@ -1,0 +1,341 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BentonSans-Medium
+FamilyName:BentonSans
+StyleName:Medium
+MenuName:BentonSans
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:BentonSans Medium
+WritingScript:Roman
+OutlineFileName:/Users/dominiquedemoe/Downloads/Type Spec Book 2019 FINAL2 Folder/Document fonts/BentonSans-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:14244
+FileModTime:156028228
+NameArray:0,Mac,4,BentonSans Medium
+NameArray:0,Win,1,BentonSans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/dominiquedemoe/Downloads/Type Spec Book 2019 FINAL2 Folder/Document fonts/AdobeFnt21.lst
+FileLength:7923
+FileModTime:578110279
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BentonSans-Light
+FamilyName:BentonSans
+StyleName:Light
+MenuName:BentonSans
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:BentonSans Light
+WritingScript:Roman
+OutlineFileName:/Users/dominiquedemoe/Downloads/Type Spec Book 2019 FINAL2 Folder/Document fonts/BentonSans-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:13592
+FileModTime:156028260
+NameArray:0,Mac,4,BentonSans Light
+NameArray:0,Win,1,BentonSans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BentonSans
+FamilyName:BentonSans
+StyleName:Regular
+MenuName:BentonSans
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:BentonSans
+WritingScript:Roman
+OutlineFileName:/Users/dominiquedemoe/Downloads/Type Spec Book 2019 FINAL2 Folder/Document fonts/BentonSans-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:14036
+FileModTime:156028418
+NameArray:0,Mac,4,BentonSans
+NameArray:0,Win,1,BentonSans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NewsGothicMT
+FamilyName:News Gothic MT
+StyleName:Regular
+MenuName:News Gothic MT
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:News Gothic MT
+WritingScript:Roman
+OutlineFileName:/Users/dominiquedemoe/Downloads/Type Spec Book 2019 FINAL2 Folder/Document fonts/News Gothic MT
+DataFormat:sfntResource
+ResourceID:4096
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218725
+FileModTime:415094400
+NameArray:0,Mac,4,News Gothic MT
+NameArray:0,Win,1,News Gothic MT
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NewsGothicMT-Bold
+FamilyName:News Gothic MT
+StyleName:Bold
+MenuName:News Gothic MT
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:News Gothic MT Bold
+WritingScript:Roman
+OutlineFileName:/Users/dominiquedemoe/Downloads/Type Spec Book 2019 FINAL2 Folder/Document fonts/News Gothic MT
+DataFormat:sfntResource
+ResourceID:4097
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218725
+FileModTime:415094400
+NameArray:0,Mac,4,News Gothic MT Bold
+NameArray:0,Win,1,News Gothic MT
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NewsGothicMT-Italic
+FamilyName:News Gothic MT
+StyleName:Italic
+MenuName:News Gothic MT
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:News Gothic MT Italic
+WritingScript:Roman
+OutlineFileName:/Users/dominiquedemoe/Downloads/Type Spec Book 2019 FINAL2 Folder/Document fonts/News Gothic MT
+DataFormat:sfntResource
+ResourceID:4098
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218725
+FileModTime:415094400
+NameArray:0,Mac,4,News Gothic MT Italic
+NameArray:0,Win,1,News Gothic MT
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:NewsGothicMT
+OutlineFileName:/Users/dominiquedemoe/Downloads/Type Spec Book 2019 FINAL2 Folder/Document fonts/News Gothic MT
+ResourceID:2074
+MacStyle:0
+FileLength:218725
+FileModTime:415094400
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:NewsGothicMT-Bold
+OutlineFileName:/Users/dominiquedemoe/Downloads/Type Spec Book 2019 FINAL2 Folder/Document fonts/News Gothic MT
+ResourceID:2074
+MacStyle:1
+FileLength:218725
+FileModTime:415094400
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:NewsGothicMT-Italic
+OutlineFileName:/Users/dominiquedemoe/Downloads/Type Spec Book 2019 FINAL2 Folder/Document fonts/News Gothic MT
+ResourceID:2074
+MacStyle:2
+FileLength:218725
+FileModTime:415094400
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BentonSans-Bold
+FamilyName:BentonSans
+StyleName:Bold
+MenuName:BentonSans
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:BentonSans Bold
+WritingScript:Roman
+OutlineFileName:/Users/dominiquedemoe/Downloads/Type Spec Book 2019 FINAL2 Folder/Document fonts/BentonSans-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:14224
+FileModTime:156028390
+NameArray:0,Mac,4,BentonSans Bold
+NameArray:0,Win,1,BentonSans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BentonSans-Book
+FamilyName:BentonSans
+StyleName:Book
+MenuName:BentonSans
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:BentonSans Book
+WritingScript:Roman
+OutlineFileName:/Users/dominiquedemoe/Downloads/Type Spec Book 2019 FINAL2 Folder/Document fonts/BentonSans-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:14152
+FileModTime:156028290
+NameArray:0,Mac,4,BentonSans Book
+NameArray:0,Win,1,BentonSans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BentonSans-Thin
+FamilyName:BentonSans
+StyleName:Thin
+MenuName:BentonSans
+StyleBits:0
+WeightClass:100
+WidthClass:5
+AngleClass:0
+FullName:BentonSans Thin
+WritingScript:Roman
+OutlineFileName:/Users/dominiquedemoe/Downloads/Type Spec Book 2019 FINAL2 Folder/Document fonts/BentonSans-Thin.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:13456
+FileModTime:156028442
+NameArray:0,Mac,4,BentonSans Thin
+NameArray:0,Win,1,BentonSans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BentonSans-CondensedLight
+FamilyName:BentonSans
+StyleName:Condensed Light
+MenuName:BentonSans
+StyleBits:0
+WeightClass:300
+WidthClass:3
+AngleClass:0
+FullName:BentonSans Condensed Light
+WritingScript:Roman
+OutlineFileName:/Users/dominiquedemoe/Downloads/Type Spec Book 2019 FINAL2 Folder/Document fonts/BentonSansCond-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:13484
+FileModTime:156029026
+NameArray:0,Mac,4,BentonSans Condensed Light
+NameArray:0,Win,1,BentonSans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BentonSans-Black
+FamilyName:BentonSans
+StyleName:Black
+MenuName:BentonSans
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:BentonSans Black
+WritingScript:Roman
+OutlineFileName:/Users/dominiquedemoe/Downloads/Type Spec Book 2019 FINAL2 Folder/Document fonts/BentonSans-Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:13864
+FileModTime:156028324
+NameArray:0,Mac,4,BentonSans Black
+NameArray:0,Win,1,BentonSans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:BentonSans-ExtraLight
+FamilyName:BentonSans
+StyleName:Extra Light
+MenuName:BentonSans
+StyleBits:0
+WeightClass:200
+WidthClass:5
+AngleClass:0
+FullName:BentonSans Extra Light
+WritingScript:Roman
+OutlineFileName:/Users/dominiquedemoe/Downloads/Type Spec Book 2019 FINAL2 Folder/Document fonts/BentonSans-ExtraLight.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:13916
+FileModTime:156028358
+NameArray:0,Mac,4,BentonSans Extra Light
+NameArray:0,Win,1,BentonSans
+%EndFont
+

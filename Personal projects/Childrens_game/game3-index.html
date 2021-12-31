@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Solar System Memory</title>
+
+
+    <link rel="stylesheet" href="assets/game-styles.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/vxl2cco.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/vxl2cco.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/vxl2cco.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <style>
+        ::-webkit-scrollbar {
+            width: 20px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgb(230 231 232);
+            box-shadow: inset 0 0 5px rgb(40 39 64);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgb(242 201 22);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(40 39 64);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img class="astro" src="assets/astronaut-astronomy-cosmos.png">
+
+        <!--   Background     -->
+
+        <div class="background">
+            <img class="milk" src="assets/milkyway.jpeg">
+        </div>
+
+        <!--   Header     -->
+
+        <div class="header">
+
+            <h1>Solar System Memory</h1>
+
+            <h2>Level 3: Asteroids, Comets and Meteors</h2>
+
+            <!--   Buttons     -->
+            <div class="top">
+
+                <a class="level1" id="button" href="game-index.html">Level 1</a>
+
+                <a class="level2" id="button" href="game2-index.html">Level 2</a>
+
+                <a class="level3" id="button" href="game3-index.html">Level 3</a>
+
+                <a class="playagain" id="button" href="game3-index.html">Play Again</a>
+
+            </div>
+
+            <div class="bottom">
+
+                <!--        Modal Content-->
+                <button class="trigger">Asteroids, Comets and Meteors</button>
+                <div class="modal">
+                    <div class="modal-content">
+                        <span class="close-button">&times;</span>
+                        <h1 class="acm">Asteroids, Comets and Meteors</h1>
+
+                        <br>
+
+                        <ol style="list-style-type:none">
+                            <li>Asteroids <img src="assets/asteroid1.jpg" style="width:50px; height: auto;" align="bottom;"> <img src="assets/asteroid2.jpg" style="width:50px; height: auto;" align="bottom;"> <img src="assets/asteroid3.jpg" style="width:50px; height: auto;" align="bottom;"></li>
+
+                            <li>Comets <img src="assets/comet1.jpg" style="width:50px; height: auto;" align="bottom;"> <img src="assets/comet2.jpg" style="width:50px; height: auto;" align="bottom;"> <img src="assets/comet3.jpg" style="width:50px; height: auto;" align="bottom;"></li>
+
+                            <li>Meteors <img src="assets/meteor1.jpg" style="width:50px; height: auto;" align="bottom;"> <img src="assets/meteor2.jpg" style="width:50px; height: auto;" align="bottom;"></li>
+
+                        </ol>
+                    </div>
+                </div>
+
+                <a class="more" id="button" href="info.html">Learn More</a>
+
+                <a class="rules" id="button" href="rules-index.html">Rules</a>
+
+                <a class="aboutb" id="button" href="about-index.html">About</a>
+            </div>
+
+        </div>
+
+        <!--   Cards     -->
+
+        <div class="game-container">
+            <div class="memory-card" data-name="asteroid1" style="order:11;">
+                <img class="front" src="assets/asteroid1.jpg">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+            <div class="memory-card" data-name="asteroid1" style="order:6" ;>
+                <img class="front" src="assets/asteroid1.jpg">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+
+            <div class="memory-card" data-name="asteroid2" style="order:2;">
+                <img class="front" src="assets/asteroid2.jpg">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+            <div class="memory-card" data-name="asteroid2" style="order:15;">
+                <img class="front" src="assets/asteroid2.jpg">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+
+            <div class="memory-card" data-name="asteroid3" style="order:16;">
+                <img class="front" src="assets/asteroid3.jpg">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+            <div class="memory-card" data-name="asteroid3" style="order:15;">
+                <img class="front" src="assets/asteroid3.jpg">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+
+            <div class="memory-card" data-name="comet1" style="order:5;">
+                <img class="front" src="assets/comet1.jpg">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+            <div class="memory-card" data-name="comet1" style="order:4;">
+                <img class="front" src="assets/comet1.jpg">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+
+            <div class="memory-card" data-name="comet2" style="order:10;">
+                <img class="front" src="assets/comet2.jpg">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+            <div class="memory-card" data-name="comet2" style="order:10;">
+                <img class="front" src="assets/comet2.jpg">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+
+            <div class="memory-card" data-name="comet3" style="order:2;">
+                <img class="front" src="assets/comet3.jpg">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+            <div class="memory-card" data-name="comet3" style="order:16;">
+                <img class="front" src="assets/comet3.jpg">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+
+            <div class="memory-card" data-name="meteor1" style="order:11;">
+                <img class="front" src="assets/meteor1.jpg">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+            <div class="memory-card" data-name="meteor1" style="order:2;">
+                <img class="front" src="assets/meteor1.jpg">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+
+            <div class="memory-card" data-name="meteor2" style="order:14;">
+                <img class="front" src="assets/meteor2.jpg">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+            <div class="memory-card" data-name="meteor2" style="order:9;">
+                <img class="front" src="assets/meteor2.jpg">
+                <img class="back" src="assets/solar-system-memory-card-back-4.png">
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+<!--   Scripts     -->
+
+<script type="text/javascript" src="js/memory.js"></script>
+
+</html>
